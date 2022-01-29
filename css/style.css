@@ -239,33 +239,30 @@ button {
 
     footer {
       width: 100%;
-      height: 300px;
-    }
-
-    .columnTwo {
-      width: 80%;
-      text-align: center;
-      margin-top: -900px;
     }
 
     .container1 {
       text-align: center;
+      display: block;
     }
     .container1 p {
       font-size: 18px;
-      line-height: 25px;
     }
     .container1 h3 {
-    font-size: 22px;
+    font-size: 20px;
     }
-    .columnThree {
-      width: 80%;
+
+    .columnTwo {
+      width: 100%;
       text-align: center;
-      margin-left: -70px;
+    }
+
+    .columnThree {
+      width: 100%;
+      text-align: center;
     }
     .columnFour {
-      margin-right: 125px;
-      margin-top: -40px;
+      display: inline-block;
     }
 
     h1 {
