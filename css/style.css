@@ -214,28 +214,89 @@ button {
       margin-top:10px;
   }
 
-  @media screen and (max-width: 1050px) {
-    .laptop-ul {
-        display: none;
+  @media(max-width: 768px) {
+    .logo{
+        width: 46px;
+        margin-left: 15px;
     }
-}
-@media (max-width: 900px) {
-    .grid {
-        flex-direction: column;
+    button {
+        margin-right:40px;
     }
 
-    ul {
-      display: none;
+    .header {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    footer {
+      width: 100%;
+      height: 300px;
+    }
+
+    .columnTwo {
+      width: 80%;
+      text-align: center;
+      margin-top: -900px;
+    }
+
+    .container1 {
+      text-align: center;
+    }
+    .container1 p {
+      font-size: 18px;
+    }
+    .container1 h3 {
+    font-size: 22px;
+    }
+    .columnThree {
+      width: 80%;
+      text-align: center;
+      margin-left: -70px;
+    }
+    .columnFour {
+      margin-right: 125px;
+      margin-top: -40px;
+    }
+
+    h1 {
+      margin-right: 150px;
+      padding-top: 50px;
+      text-align: center;
+    }
+
+    .articles {
+      margin-left: 40px;
+    }
+
+    .article1 {
+      width: 200%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+
+    .article2 {
+      width: 200%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+
+    .article3 {
+      width: 200%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+
+    ul{
+        display:none;
+    }
+    
+    .footerlogo{
+        display:none;
     }
 }
-
-@media only screen and (max-width: 900px) {
-    .article1 {width: 50%;}
-    .article2 {width: 50%;}
-    .article3 {width: 50%;}
-    .article3 {width: 50%;}
-    .Column {width: 50%;}
-    .ColumnTwo {width: 50%;}
-    .ColumnThree {width: 50%;}
-    .ColumnFour {width: 50%;}
-  }
