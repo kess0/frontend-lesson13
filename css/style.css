@@ -226,13 +226,12 @@ button {
 }
 
 @media only screen and (max-width: 900px) {
-    /* For tablets: */
-    .article1 {width: 100%;}
-    .article2 {width: 100%;}
-    .article3 {width: 80%;}
-    .article3 {width: 80%;}
-    .Column {width: 80%;}
-    .ColumnTwo {width: 80%;}
-    .ColumnThree {width: 80%;}
-    .ColumnFour {width: 80%;}
+    .article1 {width: 50%;}
+    .article2 {width: 50%;}
+    .article3 {width: 50%;}
+    .article3 {width: 50%;}
+    .Column {width: 50%;}
+    .ColumnTwo {width: 50%;}
+    .ColumnThree {width: 50%;}
+    .ColumnFour {width: 50%;}
   }
