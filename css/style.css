@@ -217,10 +217,12 @@ button {
   @media(max-width: 768px) {
     .logo{
         width: 46px;
-        margin-left: 15px;
+        margin-left: 25px;
+        float: left;
     }
     button {
-        margin-right:40px;
+        margin-right:100px;
+        float: right;
     }
 
     .header {
