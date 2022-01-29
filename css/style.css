@@ -258,7 +258,7 @@ button {
       margin-top: -40px;
     }
 
-    h1 {
+    .articles h1 {
       margin-right: 150px;
       padding-top: 50px;
       text-align: center;
@@ -266,30 +266,23 @@ button {
 
     .articles {
       margin-left: 40px;
+      display: block;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
     }
 
     .article1 {
-      width: 200%;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
+      max-width: 100px;
     }
 
     .article2 {
-      width: 200%;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
+      max-width: 100px;
     }
 
     .article3 {
-      width: 200%;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
+      width: 100px;
     }
 
     ul{
